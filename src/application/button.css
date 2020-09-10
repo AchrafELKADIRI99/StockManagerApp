@@ -10,7 +10,7 @@
 }
 
 
-.button:focused{
+.button:hover{
 	
      -fx-background-color:linear-gradient(to right top,#FDBB2D,#3A1C71);
     -fx-text-fill:white;
@@ -18,3 +18,5 @@
     -fx-background-insets: -0.1, 2.0;
     -fx-font-size:16.0;
 }
+
+
