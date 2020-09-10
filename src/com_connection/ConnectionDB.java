@@ -16,6 +16,7 @@ public class ConnectionDB {
             return conn;
         } catch (Exception  ex) {
             System.err.println("erreur :"+ex.getMessage());
+            ex.printStackTrace();
             return null;
         }
     }
